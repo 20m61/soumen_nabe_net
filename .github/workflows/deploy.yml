@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_PATH }}
-          local-dir: ./my-app/build/
+          local-dir:  /workspaces/soumen_nabe_net/my-app/build/
