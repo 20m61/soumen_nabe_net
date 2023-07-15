@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Install dependencies
-        run: cd ./my-app && npm install
+        run: npm install
       - name: Build
         run: npm run build
       - name: Deploy
@@ -22,4 +22,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ${{ secrets.FTP_PATH }}
-          local-dir:  /workspaces/soumen_nabe_net/my-app/build/
+          local-dir:  ./build/
