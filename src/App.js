@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src="logo.png" className="App-logo" alt="logo" />
-        <img src="http://accnt.omosiro.zombie.jp/cnt/accnt.php?cnt_id=2134779&ac_id=LAA0416165&mode=total" alt="counter" />
       </header>
       <div className="App-intro">
         真夏。むせるような暑さの中、そうめんを食べるのはどうか。<br />
